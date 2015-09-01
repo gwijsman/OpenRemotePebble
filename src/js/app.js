@@ -2,6 +2,9 @@
  * Welcome to Pebble.js!
  *
  * This is where you write your app.
+ *
+ * Gert Wijsman
+ *
  */
 
 var UI = require('ui');
