@@ -160,7 +160,7 @@ PORMenu.prototype.showMainMenu = function () {
 	new PORSwitchWindow(Switches[e.itemIndex]);
     });
     menu.on('back', function(e) {
-	consloe.log('BACK!! STOP THE PROGRAM!');
+	console.log('BACK!! STOP THE PROGRAM!');
     });
     menu.show();
 }

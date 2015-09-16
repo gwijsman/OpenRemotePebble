@@ -1,0 +1,45 @@
+{
+  "uuid": "7b7363c9-808e-4043-8d33-1e451844ae8e",
+  "shortName": "OpRemPeb",
+  "longName": "OpenRemotePebble",
+  "companyName": "Gert Wijsman",
+  "versionCode": 1,
+  "versionLabel": "0.2",
+  "capabilities": [
+    "configurable"
+  ],
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {},
+  "resources": {
+    "media": [
+      {
+        "menuIcon": true,
+        "type": "png",
+        "name": "IMAGE_MENU_ICON",
+        "file": "images/menu_icon.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_LOGO_SPLASH",
+        "file": "images/logo_splash.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_TILE_SPLASH",
+        "file": "images/tile_splash.png"
+      },
+      {
+        "type": "font",
+        "name": "MONO_FONT_14",
+        "file": "fonts/UbuntuMono-Regular.ttf"
+      }
+    ]
+  },
+  "targetPlatforms": [
+    "aplite",
+    "basalt"
+  ],
+  "sdkVersion": "3"
+}
